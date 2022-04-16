@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: auto !important; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+/*fuentes*/
+.container{
+    color: white;
+    font-size: 13px;
+}
+
+/*barra_navegacion*/
+.navbar{
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+/*quienes_somos*/
+.dibujo{
+    background-color: aqua;
+    color: white;
+}
+
+.text-somos{
+    text-align: left;
+    font-size: smaller;
+}
+
+/*Tarjetas*/
+.card-title .card-text{
+    text-align: left;
+}
+
+.card-body{
+    background-color: aqua;
+}
+
+.card img {
+    max-height: 150px;
+  }
+  
+  /*carrusel*/
+  .carousel-item img {
+    max-height: 100vh;
+  }
+
+/*inputs*/
+input{
+    width: 82vw;
+}
+
+/*footer*/
+footer{
+    background-color: aqua;
+    height: 150px;
+}
+
+#footer a{
+    color: white;
+    margin-left: 10px;
+}
